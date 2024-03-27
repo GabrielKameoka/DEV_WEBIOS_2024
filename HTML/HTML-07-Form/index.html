@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+
+        <!-- Formulários -->
+
+        <h2>Pacotes de viagem</h2>
+        <form target="_blank" action="./inscricao.html">
+
+            <fieldset>
+                <legend>Informações do usuário</legend>
+            <label>Nome</label>
+            <input type="text"><br>
+
+            <label>Idade</label>
+            <input type="number"><br>
+
+            <label>E-mail</label>
+            <input type="text"><br>
+
+            <label>Telefone</label>
+            <input type="number"><br>
+            </fieldset>
+
+            <!-- Radio (uma única escolha entre muitas opções) -->
+            <fieldset>
+                <legend>Viagem de ida e volta?</legend>
+                <input type="radio" name="ida">
+                <label>Somente ida</label><br>
+                <input type="radio" name="ida">
+                <label>Ida e volta</label>
+            </fieldset>
+
+            <!-- Chackbox (mais de um opção) -->
+            <fieldset>
+                <legend>Serviços</legend>
+                <input type="checkbox">
+                <label>Compra de passagens</label>
+
+                <input type="checkbox">
+                <label>reserva de veículo</label>
+
+                <input type="checkbox">
+                <label>Reserva de hospedagem</label>
+            </fieldset>
+
+
+            <fieldset>
+                <legend>Quantidade de crianças</legend>
+                1
+                <input type="range">
+                10
+                <br>
+            </fieldset>
+            
+            
+            <fieldset>
+                <legend>Escolha o Aeroporto</legend>
+                <select>
+                    <option value="Gru-Guarulhos">Gru-Guarulhos</option>
+                    <option value="Congonhas">Congonhas</option>
+                    <option value="Santos Dumont">Santos Dumont</option>
+                    <option value="Aeroporto internacional de Viracopos">Aeroporto internacional de Viracopos</option>
+                    <option value="Aeroporto do Campo de Marte">Aeroporto do Campo de Marte</option>
+                </select>
+            </fieldset>
+            
+            <br>
+            <br>
+
+            <input type="text" list="cidade">
+
+            <!-- Datalist -->
+                <legend></legend>
+                <datalist id="cidade">
+                    <option value="São Paulo"></option>
+                    <option value="Amapá"></option>
+                    <option value="Tocantins"></option>
+                    <option value="Sergipe"></option>
+                    <option value="Rio de janeiro"></option>
+                    <option value="Rio grande do Sul"></option>
+                    <option value="Rio grande do Norte"></option>
+                    <option value="Bahia"></option>
+                    <option value="Paraíba"></option>
+                    <option value="Roraima"></option>
+                    <option value="Amazonas"></option>
+                </datalist>
+            <br>
+            <br>
+
+            <label>Deixa suas observações</label><br>
+            <textarea name="" id="" cols="30" rows="10"></textarea><br>
+            
+            <input type="submit" value="Inscrição">
+
+        </form>
+    </body>
+</html>
