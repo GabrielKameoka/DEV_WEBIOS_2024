@@ -2,7 +2,7 @@
 
 ### Gabriel Mitsuru Kameoka
 
-Meu nome é Gabriel, tenho 19 anos, estou no curso de Desenvolvimento Web
+Meu nome é Gabriel, tenho 19 anos, estou no curso de Desenvolvimento Web pelo IOS
 
 ### Meu primeiro código
 ```
