@@ -1,0 +1,20 @@
+/*formato exadecimal*/
+body{
+    background-color: #919cc5;
+}
+
+h1{
+    text-align: center;
+    color: #6876a7;
+    font-family: "Stint Ultra Expanded", serif;
+    font-size: 70px;
+}
+
+p{
+    font-size: 20px;
+}
+
+img{
+    height: 500px; /*Altura*/
+    width: 800px; /*largura*/
+}
