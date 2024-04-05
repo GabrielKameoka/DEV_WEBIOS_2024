@@ -16,5 +16,6 @@ p{
 
 img{
     height: 500px; /*Altura*/
-    width: 800px; /*largura*/
+    width: 70%; /*largura*/
+    box-shadow: 5px 5px 5px ;
 }
