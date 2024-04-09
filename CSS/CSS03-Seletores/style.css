@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+}
+
+
+.CorAzul{
+    color: #0b85bb;
+    font-weight: 700px;
+    font-size: 30px;
+    text-shadow: 4px 4px 4px #000000;
+    text-align: left;
+}
+
+.CorVermelho{
+    color: #b2142f;
+    font-weight: 700px;
+    font-size: 30px;
+    text-shadow: 4px 4px 4px #000000;
+    text-align: center;
+}
+
+.CorVerde{
+    color: #50d963;
+    font-weight: 700px;
+    font-size: 30px;
+    text-shadow: 4px 4px 4px #000000;
+    text-align: right;
+}
+
+#MucancaUnica{
+    color: #d424df;
+    font-weight: 700px;
+    font-size: 30px;
+    text-shadow: 4px 4px 4px #000000;
+}
