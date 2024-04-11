@@ -1,0 +1,14 @@
+/*padding = distanciamento da borda e o texto*/
+#secao1{
+    border: 1px solid ;
+    border-radius: 5px 5px 5px 5px;
+    padding-top: 10px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+}
+#secao2{
+    border: 1px solid ;
+    border-radius: 5px 5px 5px 5px;
+    padding: 10px 50px 30px 20px;
+}
