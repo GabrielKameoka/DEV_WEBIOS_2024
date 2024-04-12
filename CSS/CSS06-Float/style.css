@@ -1,0 +1,13 @@
+#img1{
+    float: left;
+}
+
+#img2{
+    float: right;
+    width: 1000px;
+    height: 700px;
+}
+
+p{
+    width: 100px;
+}
