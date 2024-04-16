@@ -3,6 +3,7 @@ p:first-child{
     background-color: aquamarine;
 }
 
+/*Aplicar o esilo no último filho*/
 p:last-child{
     background-color: blue;
 }
