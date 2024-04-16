@@ -1,0 +1,8 @@
+/*Aplicar o estilo no primeiro filho*/
+p:first-child{
+    background-color: aquamarine;
+}
+
+p:last-child{
+    background-color: blue;
+}
