@@ -1,0 +1,13 @@
+body{
+    background-image: url(./Cartaz.jpeg);
+    background-repeat: no-repeat;
+
+}
+#img1{
+    width: 400px;
+    height: 250px;
+}
+header{
+    text-align: center;
+    color: aliceblue;
+}
