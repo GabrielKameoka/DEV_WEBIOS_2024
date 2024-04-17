@@ -4,10 +4,38 @@ p:first-child{
 }
 
 /*Aplicar o esilo no último filho*/
-p:last-child{
-    background-color: blue;
-}
 
-p:nth-child(2){
-    background-color: brown;
+#botao{
+    border: 1px solid wheat;
+    border-radius: 5px 5px 5px 5px;
+    background-color:blueviolet;
+}
+#botao:hover{
+    background-color: aliceblue;
+    font-size: 20px;
+}
+#paragrafoHover:hover{
+    background-color: blueviolet;
+    color: coral;
+    border: 2px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+#titulo1:hover{
+font-family: "Montserrat", sans-serif;
+}
+#img{
+    width: 400px;
+    height: 250px;
+}
+#img:hover{
+    box-shadow: 10px 10px 10px brown;
+    width: 800px;
+    height: 500px;
+}
+#pseudo::before{
+    content: 'utilizando before - ';
+}
+#pseudo::after{
+    content: ' - utilizando after - ';
 }
