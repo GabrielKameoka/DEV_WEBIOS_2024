@@ -1,13 +1,17 @@
-body{
-    background-image: url(./Cartaz.jpeg);
-    background-repeat: no-repeat;
-
+body {
+  background-color: #c1c2bc;
+  background-image: url(./Cartaz.jpeg);
+  background-repeat: no-repeat;
+  background-position: 37vw 0vw;
 }
-#img1{
-    width: 400px;
-    height: 250px;
+#img1 {
+  width: 400px;
+  height: 250px;
 }
-header{
-    text-align: center;
-    color: aliceblue;
+header {
+  text-align: center;
+  color: aliceblue;
+}
+#rodape::after {
+  content:' ©/ Todos direitos reservados/ Gabriel Mitsuru';
 }
