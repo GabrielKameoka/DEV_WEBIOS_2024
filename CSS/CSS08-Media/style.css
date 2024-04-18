@@ -1,0 +1,10 @@
+img{
+    width: 700px;
+}
+/*Enquanto a largura minima for de 450px a largura das imagens serão de 100px
+min-width / max-width*/
+@media(max-width: 450px) {
+    img{
+        width: 200px;
+    }
+}
