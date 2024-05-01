@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+}
+.container1{
+    padding: 10px;
+    display: flex;
+}
+.container2{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(3, 41, 211);
+}
+span{
+    color: brown;
+}
+h3{
+    background-color: rgb(12, 151, 231);
+    border-radius: 5px;
+}
+header{
+    background-color: rgb(3, 3, 156);
+}
+nav{
+    padding: 10px;
+}
