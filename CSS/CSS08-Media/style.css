@@ -27,7 +27,7 @@ min-width / max-width*/
 }
 
 @media(min-width: 452px){
-    bory{
+    body{
         background-color: darkgreen;
     }
     img{

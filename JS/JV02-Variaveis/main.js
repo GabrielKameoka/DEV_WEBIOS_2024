@@ -43,3 +43,36 @@ console.log(num1 == num2)
 var num3 = 1
 var num4 = 5
 console.log (num3 == num4)
+
+console.clear()
+
+var operador1 =8
+var operador2 =null
+console.log(operador1 * operador2)
+
+var operador3 ="5"
+var operador4 =1
+console.log(operador3 - operador4)
+
+var operador5 ="5"
+var operador6 =1
+console.log(operador5 + operador6)
+
+var operador7 =5
+var operador8 =1
+console.log(operador7 + operador8)
+
+var operador9 ="five"
+var operador10 =2
+console.log (operador9 * operador10)
+
+console.clear()
+
+var valor1 =2
+var valor2 =2
+console.log( valor1 + valor2)
+//ou var resultado = valor1 + valor2
+
+var valor3 = 3
+var valor4 = 3
+var resultado = valor3 + valor4
