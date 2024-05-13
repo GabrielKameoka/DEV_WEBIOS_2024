@@ -14,6 +14,14 @@ console.log(_felippe)
 
 console.clear()
 
+/* Regras identificador
+Podem começar com letra, $ ou _
+Não podem começar com números
+É possível usar letras e números
+É possível usar acentos e símbolos
+Não podem conter espaços
+Não podem ser palavras reservadas*/ 
+
 const PI = 3.1415
 
 console.log(PI)
@@ -76,3 +84,7 @@ console.log( valor1 + valor2)
 var valor3 = 3
 var valor4 = 3
 var resultado = valor3 + valor4
+
+/* números = number
+cadeia de caractéres = string
+true, false = boolean*/
