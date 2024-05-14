@@ -7,4 +7,4 @@ console.log(texto.substring(48, 52))
 
 //apenas para ver qual caracter está o dev
 let sla = "Estamos aprendendo JavaScript e seremos futuros "
-console.log(sla.length)
+//console.log(sla.length)
