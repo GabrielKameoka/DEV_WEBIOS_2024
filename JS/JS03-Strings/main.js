@@ -42,3 +42,13 @@ console.log(`maiúsculo: ${texto4.toUpperCase()}`)
 
 var namorada = "a mais bela de todas"
 console.log(namorada.substring(7, 11))
+console.log(namorada.substring(15))
+
+//substituir uma string por outra
+
+var texto6 = "Gabi melhor namorada do mundo"
+console.log(texto6.replace('melhor', 'the best'))
+
+//tirar espaços em branco no inicio e no fim da string
+var texto7 = "          te amo gabi             "
+console.log(texto7.trim())
