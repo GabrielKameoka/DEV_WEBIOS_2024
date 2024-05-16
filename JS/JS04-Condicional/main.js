@@ -37,11 +37,11 @@ console.clear()
 
 let QuemAmaMais1 = "eu amo mais"
 switch(QuemAmaMais1){
-    case QuemAmaMais1 == "eu amo mais":
+    case "eu amo mais":
         console.log("eu amo muito mais")
         break;
 
-    case QuemAmaMais1 == "ela ama mais":
+    case "ela ama mais":
         console.log("ela me ama mais")
         break;
     
