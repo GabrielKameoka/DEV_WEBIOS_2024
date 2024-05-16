@@ -3,10 +3,10 @@ var tabuada = 2
 
 // pra ver se é 2 ou 3
 if (tabuada === 2 || tabuada === 3) {
-  console.log(`Tabuada do número ${tabuada}:`)
+  console.log(`Tabuada do número ${numero}:`)
 
-  for (let numero = 1; numero <= 10; numero++) {
-    console.log(`${tabuada} x ${numero} = ${tabuada * numero}`)
+  for (var numero = 1; numero <= 10; numero++) {
+    console.log(`${tabuada} x ${tabuada} = ${tabuada * numero}`)
   }
 }
 //izi
