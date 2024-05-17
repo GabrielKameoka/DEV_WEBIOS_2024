@@ -9,4 +9,3 @@ if (tabuada === 2 || tabuada === 3) {
     console.log(`${tabuada} x ${numero} = ${tabuada * numero}`)
   }
 }
-//izi
