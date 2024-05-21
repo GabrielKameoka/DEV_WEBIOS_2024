@@ -52,7 +52,7 @@ var utilizaPop = ["Pollyana", "André", "Felippe", "Lucas Nathan", "Esther", "Lu
 console.log(utilizaPop)
 
 var mudanca2 = utilizaPop.pop()
-console.log (mudanca2)
+console.log(mudanca2)
 console.log(utilizaPop)
 
 var mudanca3 = utilizaPop.push("Saraiva")
