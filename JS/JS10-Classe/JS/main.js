@@ -12,6 +12,8 @@ let Carro1 = new Carro("KWID", 2012); //nova cópia da classe = instancie
 let Carro2 = new Carro("Eclipse", 2016);
 let Carro3 = new Carro("Civic", 2017)
 console.log(Carro1)
+console.log(Carro2)
+console.log(Carro3)
 
 let anoAtual = new Date();
 let recebeAno = anoAtual.getFullYear();
