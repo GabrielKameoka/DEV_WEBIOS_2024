@@ -30,3 +30,6 @@ for(c = 0;c < byTagName.length; c++){
 
 let removendo = document.getElementById('remove1')
 removendo.remove()
+
+let recebeLista = document.getElementById('paiLista')
+recebeLista.style.listStyle = 'none'
