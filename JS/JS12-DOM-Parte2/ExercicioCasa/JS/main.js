@@ -1,5 +1,9 @@
 //primeiro botão
-
+function recebeImg() {
+    let img = document.createElement("img");
+    img.src='./img/thumb-1920-1000886.jpg'
+    document.body.appendChild(img);
+}
 
 //segundo botão
 function recebeNome(){
