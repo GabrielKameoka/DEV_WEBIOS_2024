@@ -13,7 +13,7 @@ function recebeNome(){
 function recebeNum(){
     let num = window.prompt('digite um número')
     if(num <= 10){
-        for(let i = 1; i <= 10;i++){
+        for(let i = 1;i <= 10;i++){
             let mostraTabuada = document.createElement('p')
             mostraTabuada.innerText = `${num} x ${i} = ${num * i}`
             document.body.appendChild(mostraTabuada)
