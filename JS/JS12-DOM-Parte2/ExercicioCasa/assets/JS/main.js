@@ -1,8 +1,11 @@
 //primeiro botão
 function recebeImg() {
     let img = document.createElement("img");
-    img.src='./img/thumb-1920-1000886.jpg'
+    img.src='./assets/img/thumb-1920-1000886.jpg'
     document.body.appendChild(img);
+
+    let fundo = document.getElementById('corpo')
+    fundo.style.backgroundColor = '#262525'
 }
 
 //segundo botão
